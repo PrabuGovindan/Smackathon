@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBPHacks.App", "RBPHacks.App\RBPHacks.App.csproj", "{85E457FC-E219-4B37-B766-64F5CDA7FE07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBPHacks.DAL", "RBPHacks.DAL\RBPHacks.DAL.csproj", "{C95CD57F-AE5F-4E3B-B093-50459C9075CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85E457FC-E219-4B37-B766-64F5CDA7FE07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E457FC-E219-4B37-B766-64F5CDA7FE07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E457FC-E219-4B37-B766-64F5CDA7FE07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E457FC-E219-4B37-B766-64F5CDA7FE07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C95CD57F-AE5F-4E3B-B093-50459C9075CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95CD57F-AE5F-4E3B-B093-50459C9075CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95CD57F-AE5F-4E3B-B093-50459C9075CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95CD57F-AE5F-4E3B-B093-50459C9075CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

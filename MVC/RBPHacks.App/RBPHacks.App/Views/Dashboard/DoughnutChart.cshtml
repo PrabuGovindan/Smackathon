@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "DoughnutChart";
+}
+
+<h2>DoughnutChart</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Pie Charts</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.min.js"></script>
+    <script src="~/Scripts/Chartbundle.js"></script>
+    <script src="~/Scripts/utils.js"></script>
+    <script>
+        var DoughnutChartData =
+            {
+                labels: [@Html.Raw(ViewBag.CampainMonthWise_List)],
+                datasets: [{
+                    label: 'ProductWise Sales Count',
+                    backgroundColor: [
+                        "#f990a7",
+                        "#aad2ed",
+                        "#9966FF",
+                        "#99e5e5",
+                        "#f7bd83",
+                    ],
+                    borderWidth: 2,
+                    data: [@ViewBag.MobileCount_List]
+                }]
+            };
+
+            window.onload = function () {
+                var ctx1 = document.getElementById("Doughnutcanvas").getContext("2d");
+                window.myBar = new Chart(ctx1,
+                    {
+                        type: 'doughnut',
+                        data: DoughnutChartData,
+                        options:
+                            {
+                                title:
+                                {
+                                    display: true,
+                                    text: "ProductWise Sales Count"
+                                },
+                                responsive: true,
+                                maintainAspectRatio: true
+                            }
+                    });
+            }
+    </script>
+</head>
+<body>
+    <div style="text-align: center;height:400px">
+        <canvas id="Doughnutcanvas"></canvas>
+    </div>
+</body>
+
+</html>

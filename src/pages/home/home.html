@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      <!--Charts in Ionic 2-->
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content>
+ 
+    <ion-card>
+      <ion-card-header>
+        Bar Chart
+      </ion-card-header>
+      <ion-card-content>
+        <canvas #barCanvas></canvas>
+      </ion-card-content>
+    </ion-card>
+ 
+    <ion-card>
+      <ion-card-header>
+        Doughnut Chart
+      </ion-card-header>
+      <ion-card-content>
+        <canvas #doughnutCanvas></canvas>
+      </ion-card-content>
+    </ion-card>
+ 
+    <ion-card>
+      <ion-card-header>
+        Line Chart
+      </ion-card-header>
+      <ion-card-content>
+        <canvas #lineCanvas></canvas>
+      </ion-card-content>
+    </ion-card>
+
+
+ <h2>User List</h2>
+  <ion-list>
+    <ion-item *ngFor="let user of users">
+      {{user.name}}
+    </ion-item>
+  </ion-list>
+
+
+    <button ion-button full (click)="Display()" color="primary" class="login-button" [id]="testid1">Display</button>
+                
+                <button ion-button full (click)="Nodedata()" color="primary" class="login-button" [id]="testid1">NOdeJs</button>
+                
+
+ 
+</ion-content>
+<!--
+<ion-content padding>
+  <h2>User List</h2>
+  <ion-list>
+    <ion-item *ngFor="let user of users">
+      {{user.name}}
+    </ion-item>
+  </ion-list>
+</ion-content>-->

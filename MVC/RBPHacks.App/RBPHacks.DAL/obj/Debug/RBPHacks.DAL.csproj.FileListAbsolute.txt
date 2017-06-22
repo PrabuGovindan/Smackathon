@@ -1,0 +1,6 @@
+C:\Prabu WorkSpace\inprogress\RBPHacks\RBPHacks.App\RBPHacks.DAL\bin\Debug\RBPHacks.DAL.dll.config
+C:\Prabu WorkSpace\inprogress\RBPHacks\RBPHacks.App\RBPHacks.DAL\bin\Debug\RBPHacks.DAL.dll
+C:\Prabu WorkSpace\inprogress\RBPHacks\RBPHacks.App\RBPHacks.DAL\bin\Debug\RBPHacks.DAL.pdb
+C:\Prabu WorkSpace\inprogress\RBPHacks\RBPHacks.App\RBPHacks.DAL\obj\Debug\RBPHacks.DAL.dll
+C:\Prabu WorkSpace\inprogress\RBPHacks\RBPHacks.App\RBPHacks.DAL\obj\Debug\RBPHacks.DAL.pdb
+C:\Prabu WorkSpace\inprogress\RBPHacks\RBPHacks.App\RBPHacks.DAL\obj\Debug\RBPHacks.DAL.csprojResolveAssemblyReference.cache

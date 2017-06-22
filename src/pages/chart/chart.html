@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      Campaign Dashboard
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content>
+ 
+    <ion-card>
+      <ion-card-header>
+        Top 6 Product sold in this Campaign
+        </ion-card-header>
+      <ion-card-content>
+        <canvas #barCanvas></canvas>
+      </ion-card-content>
+    </ion-card>
+ 
+    <ion-card>
+      <ion-card-header>
+       Total Product Details
+      </ion-card-header>
+      <ion-card-content>
+        <canvas #doughnutCanvas></canvas>
+      </ion-card-content>
+    </ion-card>
+ 
+    <!--<ion-card>
+      <ion-card-header>
+        Line Chart
+      </ion-card-header>
+      <ion-card-content>
+        <canvas #lineCanvas></canvas>
+      </ion-card-content>
+    </ion-card>-->
+
+
+    <button ion-button full (click)="Display()" color="primary" class="login-button" [id]="testid1">Display Dashboard</button>
+                
+  <!--<button ion-button full (click)="dbdata()" color="primary" class="login-button" [id]="testi">getdata</button>-->
+ 
+</ion-content>
