@@ -251,8 +251,9 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
     // SUB-PROJECT DEPENDENCIES START
-    debugCompile(project(path: "CordovaLib")) // , configuration: "debug"
+    debugCompile(project(path: "CordovaLib", configuration: "debug"))
     releaseCompile(project(path: "CordovaLib", configuration: "release"))
+    compile "com.ionicframework.analyticsproject939536"
     // SUB-PROJECT DEPENDENCIES END
 }
 
