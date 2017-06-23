@@ -233,9 +233,13 @@ android {
             }
         }
         buildTypes {
+            debug {
+              debuggable true
+              minifyEnabled false
+            }
             release {
                 signingConfig signingConfigs.release
-            }
+            }            
         }
         addSigningProps(cdvReleaseSigningPropertiesFile, signingConfigs.release)
     }
