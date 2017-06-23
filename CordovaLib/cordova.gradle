@@ -29,7 +29,7 @@ String doEnsureValueExists(filePath, props, key) {
 
 String doGetProjectTarget() {
     def props = new Properties()
-    file('project.properties').withReader { reader ->
+    file('CordovaLib/project.properties').withReader { reader ->
         props.load(reader)
     }
     return doEnsureValueExists('project.properties', props, 'target')
