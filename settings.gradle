@@ -1,4 +1,3 @@
 // GENERATED FILE - DO NOT EDIT
 include ":AnalyticsProject"
 include ":CordovaLib"
-compile project (':AnalyticsProject')
